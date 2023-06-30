@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Purple_Smile';
+    src: url(/aplicaciones/fuentes/Purple\ Smile.ttf);
+}
+body {
+    font-family: arial ;
+    background-color: #A7EDE7 ;
+    box-sizing: border-box;
+}
+form {
+background-color: #99DBF5 ;
+border-radius: 18px;
+font-size: 16px;
+padding: 30px;
+margin: 0 auto;
+width: 175px;
+}
+.subtitulos {
+font-family: 'Purple_Smile';
+color: #A459D1 ;
+}
+input {
+    border:0;
+    outline:none;
+    width: 150px;
+}
+.campo {
+border:solid 3px #F266AB;
+height: 30px;
+border-radius: 19px;
+padding: 10px;
+}
+.campo:focus {
+    border-color: #FFB84C;
+}
+.button {
+    font-family:'Purple_Smile' ;
+border-radius: 20px;
+display: inline-block;
+padding: 10px 10px;
+text-decoration: none;
+text-shadow: 0 1px 0 rgba(145, 137, 137, 0.3);
+box-shadow: #FFB84C 5px 4px;
+}
+.button-cyan {
+   color:  #F266AB;
+   background-color: #A7EDE7;
+}
+.button-cyan:hover {
+    background-color: #F5F0BB;
+}
+.button-cyan:active {
+    background-color: #E7CBCB;
+}
